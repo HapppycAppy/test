@@ -1,0 +1,41 @@
+body
+{
+    background-image: url(images/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.logo
+{
+    margin: auto;
+    width: 50%;
+   
+    
+    text-align: center;
+}
+.home
+{
+    font-size: 32px;
+    display: flex;
+    color: black;
+    display: inline;
+    font-style: italic;
+    padding: 10px;
+    margin: auto;
+    width: 50%;
+    text-align: center;   
+}
+.home img
+{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 2s ease-in-out;
+  border-radius: 50%;
+}
+.home:hover
+{
+    transition: all 2s ease-in-out;
+    border-radius: 50%;
+}
